@@ -1,0 +1,629 @@
+* {
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:#f6ffff ;
+    position: relative;
+}
+
+.container {
+    background-color: #f6ffff;
+   
+    
+}
+
+header {
+    height: 550px;
+    margin-bottom: 100px;
+    background-color: #CAF0F8;
+    margin-left: ;
+    padding-top: 20px;
+    
+}
+
+nav {
+    position: fixed;
+        top: 0%;
+        z-index: 100;
+        width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+    margin-bottom: 100px;
+    padding-top: 15px;
+    padding-bottom: px;
+    background-color: #03030305;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+    
+    
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hero-image {
+    margin-top: 120px;
+}
+
+nav button {
+    background-color: #CAF0F8;
+    border: 1px solid #f8f8fb;
+}
+
+a:link  {
+    
+    text-decoration: none;
+}
+a:visited {
+    color:#0e0e0e;
+    border-radius: 20px;
+}
+a:hover {
+    color: #0000ff;
+    border-radius: 20px;
+}
+
+a:active {
+    color: white;
+    border-radius: 20px;
+}
+
+
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 255, 0.238);
+    
+}
+
+button:active {
+    background-color: #2323f8;
+}
+
+button:hover {
+    background-color: #05d1fa;
+    color: white;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    
+    
+}
+
+.hero-section h1 {
+    font-size: 58px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+
+.hero-section p {
+    line-height: 1.6;
+}
+
+.check-in {
+    background-color: white;
+    width: 750px;
+    height: 120px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 10px;
+    position: absolute;
+    top: 490px;
+    left: 300px;
+
+}
+
+.check-in p {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.check-in_group {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 10px 20px;
+    
+}
+
+.check-in_details {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 2px solid #0000ff75;
+    padding: 0px 5px;
+    border-radius: 10px;
+   
+
+}
+
+.check-in button {
+    padding: 10px 40px;
+    
+}
+
+.check-in_group p{
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0%;
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgba(59, 59, 59, 0.834);
+}
+
+#location {
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    margin-right: 10px;
+    margin-left: -5px;
+    
+}
+
+.sponsors p {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sponsors-logo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.listed-apartments {
+    margin: 0px 100px;
+    margin-top: 100px;
+}
+
+.listed-apartments p {
+    font-size: 18px;
+    color: #0000ff;
+    font-weight: 500;
+    margin-bottom: 0%;
+}
+
+h3 {
+    font-size: 40px;
+    margin-top: 0%;
+    font-weight: 600;
+}
+
+.listed-apartments-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listed-apartments-header p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.listed-apartments-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.listed-apartments-icons {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid blue;
+}
+
+.listed-apartments-icons:first-child {
+    background-color: white;
+    padding-left: 5px;
+}
+
+.listed-apartments-icons:last-child {
+    background-color: blue;
+}
+
+.listed-apartments-card {
+    display: flex;
+    gap: 23px;
+}
+
+.listed-apartments-card p {
+    margin-top: 0%;
+    line-height: 1.7;
+    color: black;
+}
+
+.apartment-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.apartment-price > p {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(71, 70, 70);
+    
+}
+
+.listed-apartments-card p:nth-child(2) {
+    font-weight: 600;
+}
+
+.our-services {
+    height: 500px;
+    background-color: #CAF0F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+.img-tag {
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.top {
+    background-color: #0000ff;
+    width: 150px;
+    height: 170px;
+}
+
+.bottom {
+    background-color: #0000ff;
+        width: 150px;
+        height: 150px;
+        margin-top: 50px;
+        margin-left: 230px;
+}
+
+.img-tag img {
+    position: absolute;
+    top: 85px;
+    left: 140px;
+}
+
+.our-services-details {
+    margin-right: 100px;
+}
+
+.service-head p:first-child {
+    font-size: 22px;
+        color: #0000ff;
+        font-weight: 600;
+        margin-bottom: 10px;
+}
+
+.service-head p:last-child {
+    line-height: 1.5;
+}
+
+.our-services-type {
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.house {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    line-height: 0;
+}
+
+.house div {
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    margin-right: -25px;
+    border-radius: 5px;
+}
+
+.our-team {
+    margin: 0px 100px;
+    margin-top: 100px;
+}
+
+.our-team-header {
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.our-team-header p {
+    font-size: 20px;
+        font-weight: 600;
+        color: #0000ff;
+        margin-bottom: 10px;
+}
+
+.our-team-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.our-team-icons {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid blue;
+}
+
+.our-team-icons:first-child {
+    background-color: white;
+    padding-left: 5px;
+}
+
+.our-team-icons:last-child {
+    background-color: blue;
+}
+
+.our-team-cards {
+    display: flex;
+        gap: 23px;
+        text-align: center;
+}
+
+.our-team-cards p {
+    margin-top: 0%;
+    line-height: 0.5;
+    color: black;
+    margin-top: 20px;
+}
+
+.our-team-cards p:last-child {
+    font-weight: bold;
+}
+
+.client_review {
+    margin: 0px 100px;
+    margin-top: 100px;
+}
+
+.client_review-header {
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.client_review-header p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0000ff;
+    margin-bottom: 10px;
+}
+
+.client_review-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.client_review-icons {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid blue;
+}
+
+.client_review-icons:first-child {
+    background-color: white;
+    padding-left: 5px;
+}
+
+.client_review-icons:last-child {
+    background-color: blue;
+}
+
+.client_review-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px;
+
+}
+
+.client_review-quote1 {
+    margin-bottom: 30px;
+}
+
+.client_review-quote2 {
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+.client_review-details p:nth-child(3) {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#ourblog {
+    margin: 100px 100px;
+        
+}
+
+.our-blog-header {
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.our-blog-header p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0000ff;
+    margin-bottom: 10px;
+}
+
+.our-blog-card {
+    display: flex;
+        gap: 23px;
+}
+
+.date {
+    width: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    border-bottom: 2px solid blue;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.date-tag {
+    background-color: #0000ff;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    
+}
+
+.our-blog-views {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.our-blog-views1 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.our-blog-card button {
+    background-color: #CAF0F8;
+    color: #0000ff;
+    border: none;
+}
+
+.subscribe {
+    background-color: #CAF0F8;
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.subscribe-details {
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+#email {
+    width: 600px;
+    height: 60px;
+    border-radius: 35px;
+    border: 3px solid blue;
+}
+
+#email::placeholder {
+    padding-left: 20px;
+    font-size: 16px;
+}
+.subscribe-info {
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.subscribe-btn {
+    margin-top: -50px;
+    margin-left: 450px;
+}
+
+.subscribe-img {
+    margin-top: 30px;
+}
+
+footer {
+    
+}
+
+.footer-section {
+    height: 100px;
+    margin: 0px 100px;
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.footer-section ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+
+.footer-section ul > li {
+    border: 2px solid blue;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+

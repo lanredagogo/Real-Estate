@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/logo.jpeg" type="image/png" />
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: "roboto", sans-serif;
+      }
+
+      body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #f6ffff;
+      }
+
+      .container {
+        height: 560px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+      }
+ 
+
+      .image_section {
+        background-color: black;
+        height: 565px;
+        background-image: url("images/house5.jpeg");
+        background-size: cover;
+        object-fit: cover;
+      }
+
+      .overlay {
+        background-color: rgba(0, 0, 0, 0.414);
+        height: 565px;
+      }
+
+      .about_page {
+        background-color: #caf0f8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .about_page-details {
+        width: 550px;
+        
+      }
+
+      nav,
+      .logo {
+        display: none;
+      }
+
+      .logo1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 230px;
+
+        font-size: 32px;
+        font-weight: bold;
+        color: white;
+      }
+
+      
+      a:link {
+        display: flex;
+        gap: 10px;
+        color: white;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: white;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <img
+            src="images/logo.jpeg"
+            alt="logo"
+            width="30px"
+            height="30px"
+          />Drive Vest
+        </div>
+        <div>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="about.html"> <b> About</b></a></li>
+            <li><a href="properties.html">Properties</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#ourblog">Blog</a></li>
+          </ul>
+        </div>
+        <div class="btn">
+          <button><a href="sign-in.html">Sign in</a></button>
+          <button><a href="sign-up.html">Sign up</a></button>
+        </div>
+      </nav>
+
+      <div class="image_section">
+        <div class="overlay">
+          <img src="" alt="" width="" height="" />
+          <div class="logo1">
+            <a href="index.html">
+              <img
+                src="images/logo.jpeg"
+                alt="logo"
+                width="100px"
+                height="100px"
+              />
+              <p>Drive Vest</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="about_page">
+        <div class="about_page-details">
+          <div>
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, commodi laudantium ut, blanditiis sapiente voluptatum enim nesciunt repellat maiores illo quos facilis quae eos nihil similique error hic fugit cupiditate.
+            Architecto a fugiat iste! Voluptatibus sit iusto exercitationem fugiat error non obcaecati inventore, consectetur nesciunt fuga quidem ipsum impedit tenetur, maiores ab.</p>
+          </div>
+          <div>
+            <h2>Our Vision</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, commodi laudantium ut, blanditiis sapiente voluptatum enim nesciunt repellat maiores illo quos facilis quae eos nihil similique error hic fugit cupiditate.
+            Architecto a fugiat iste! Voluptatibus sit iusto exercitationem fugiat error non obcaecati inventore, consectetur nesciunt fuga quidem ipsum impedit tenetur, maiores ab.</p>
+          </div>
+          <div>
+            <h2>Our Vision</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, commodi laudantium ut, blanditiis sapiente voluptatum enim nesciunt repellat maiores illo quos facilis quae eos nihil similique error hic fugit cupiditate.
+            Architecto a fugiat iste! Voluptatibus sit iusto exercitationem fugiat error non obcaecati inventore, consectetur nesciunt fuga quidem ipsum impedit tenetur, maiores ab.</p>
+          </div>
+
+        </div>
+
+        
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
